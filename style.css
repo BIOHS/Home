@@ -276,64 +276,6 @@ body {
   outline: none;
 }
 /* Two image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: center;
-  width: 43%;
-  padding: 20px;
-}
-
-.pixo {
-  text-align: center;
-  font-size: 1.7em;
-  color: white;
-}
-
-
-.panel-heading { 
-  margin: 0;
-  padding: 20px;
-  width: 100%;
-  color:purple;
-}
-
-.panel-heading a:after {
-    font-family:'Glyphicons Halflings';
-    content:"\e114";
-    font-size:14px;
-    float: right;
-    top:35px;
-    color: purple;
-    font-weight:normal;
-    position:absolute;
-}
-.panel-heading a.collapsed:after {
-  content:"\e080";
-}
-
-h4.panel-title {
-  font-size:25px;
-  font-family: 'Droid Serif', serif;
-  a {
-    color: purple;
-    text-decoration:none;
-  }
-}
-
-.panel  {
-  background-color:#080036;
- }
-.panel-group {
-  .panel+.panel {
-      margin-top: 0px;
-  }
-  .panel-default{
-    border-top:transparent;    
-  }
-}
-.panel-body {
-  padding:25px;
-  background-color: #46456c;
-  }
   .row0{
     display: flex;
     width: 100%;
