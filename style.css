@@ -228,11 +228,11 @@ footer{
 }
 .col h3{
   width: fit-content;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .email-id{
   width: fit-content;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .btn{
   display: inline-block;
