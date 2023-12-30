@@ -1,105 +1,41 @@
 @media (min-width: 1281px) {
   footer{
     margin-top: 15%;
-    width: 100%;
-  }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
   }
 }
 @media (min-width: 1024px) and (max-width: 1281px) {
   footer{
     margin-top: 18%;
-    width: 100%;
-  }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
   }
 }
 @media (min-width: 900px) and (max-width: 1024px) {
   footer{
     margin-top: 23%;
-    width: 100%;
-  }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
   }
 }
 @media (min-width: 767px) and (max-width: 900px) {
   footer{
     margin-top: 30%;
-    width: 100%;
-  }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
   }
 }
 @media (min-width: 650px) and (max-width: 767px) {
   footer{
     margin-top: 35%;
-    width: 100%;
   }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
-  }
-  }
+}
 @media (min-width: 549px) and (max-width: 650px) {
   footer{
     margin-top: 48%;
-    width: 100%;
   }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-  }
-  .header{
-    width: 100%;
-  }
-  }
+}
 @media (min-width: 481px) and (max-width: 549px) {
 footer{
   margin-top: 60%;
-  width: 100%;
-}
-body{
-  padding-bottom: 100%;
-  position: absolute;
-}
-.header{
-  width: 100%;
-}
+  }
 }
 @media (max-width: 480px) {
 footer{
   margin-top: 80%;
-  width: 100%;
-}
-body{
-  padding-bottom: 100%;
-  position: absolute;
-}
-.header{
-  width: 100%;
 }
   .col h3{
     font-size: 20px;
@@ -119,28 +55,24 @@ body{
 @media (min-width: 320px) and (max-width: 400px) {
   footer{
     margin-top: 90%;
-    width: 100%;
   }
-  body{
-    padding-bottom: 100%;
-    position: absolute;
-    .col h3{
-      font-size: 16px;
-    }
-    .col {
-      font-size: 14px;
-    }
-    .email-id{
-      width: fit-content;
-      margin: 2px 0;
-      font-size: 10px;
-    }
-    .padlet{
-      font-size: 12px;
-    }
-    .logo{
-      width: 18px;
-  }  
+  .col h3{
+    font-size: 16px;
+  }
+  .col {
+    font-size: 14px;
+   }
+   .email-id{
+     width: fit-content;
+     margin: 2px 0;
+     font-size: 10px;
+   }
+   .padlet{
+     font-size: 12px;
+   }
+   .logo{
+     width: 18px;
+   }  
 }
 
 
