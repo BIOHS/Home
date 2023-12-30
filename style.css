@@ -4,10 +4,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -19,10 +17,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -34,10 +30,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -49,10 +43,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -64,10 +56,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -79,10 +69,8 @@
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
   }
   .header{
     width: 100%;
@@ -94,10 +82,8 @@ footer{
   width: 100%;
 }
 body{
-  width: fixed;
   padding-bottom: 100%;
   position: absolute;
-  width: auto;
 }
 .header{
   width: 100%;
@@ -109,10 +95,8 @@ footer{
   width: 100%;
 }
 body{
-  width: fixed;
   padding-bottom: 100%;
   position: absolute;
-  width: auto;
 }
 .header{
   width: 100%;
@@ -138,14 +122,8 @@ body{
     width: 100%;
   }
   body{
-    width: fixed;
     padding-bottom: 100%;
     position: absolute;
-    width: auto;
-  }
-  .header{
-    width: 100%;
-  }
     .col h3{
       font-size: 16px;
     }
@@ -218,7 +196,6 @@ nav img{
 }
 body {
   background-color: #111;
-  height: 20px;  
   width: auto;
 }
 
