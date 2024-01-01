@@ -14,7 +14,7 @@
 <body>
     <section class="header">
         <nav>
-            <img src="Logo.png">
+            <img src="Logo.png" class="ogo">
             <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="https://biohs.github.io/Home">Home</a></li>
@@ -74,7 +74,7 @@
             <form method="post" action="https://script.google.com/macros/s/AKfycbx3TwJ23qck63RW6zYBmFbAn4hfIEOCBTXkakrOtfCG1Qw_kdeg2CyOX2knAd3A3DBH/exec" name="notif" id="notif">
             <div class="input-box">
               <span class="icon">
-                <ion-icon name="mail"></ion-icon>
+                <img src="mail.png" name="mail" width="13" height="10">
               </span>
               <input type="email" placeholder="Your email" name="Email" id="emails">
               <br><br><label> Type your Email to get updates</label><br>
@@ -88,17 +88,16 @@
             </form>
         </div>
         <script>
-		    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3TwJ23qck63RW6zYBmFbAn4hfIEOCBTXkakrOtfCG1Qw_kdeg2CyOX2knAd3A3DBH/exec'
-	    	const form = document.forms['notif']
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx3TwJ23qck63RW6zYBmFbAn4hfIEOCBTXkakrOtfCG1Qw_kdeg2CyOX2knAd3A3DBH/exec'
+	    const form = document.forms['notif']
 		  
-	        form.addEventListener('btn', e => {
-			  e.preventDefault()
-		      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-	        	.then(response => console.log('Success!',response))
-		        .catch(error => console.error('Error!', error.message))
-		    })
+	    form.addEventListener('btn', e => {
+	      e.preventDefault()
+	      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+	        .then(response => console.log('Success!',response))
+		.catch(error => console.error('Error!', error.message))
+	    })
           </script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <div class="bottom.bar"></div>
     </footer>
     <script src="app.js"></script>
