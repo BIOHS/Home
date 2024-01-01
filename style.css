@@ -1,95 +1,437 @@
+*{
+  padding: 0;
+  margin: 0;
+  input{
+    cursor: pointer;
+  }
+}
 @media (min-width: 1281px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 15%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
-@media (min-width: 1024px) and (max-width: 1281px) {
+@media (min-width: 1185px) and (max-width: 1281px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
   footer{
-    margin-top: 18%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
-@media (min-width: 900px) and (max-width: 1024px) {
+@media (min-width: 983px) and (max-width: 1185px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 23%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
+  }
+}
+@media (min-width: 900px) and (max-width: 983px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }  
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
 @media (min-width: 767px) and (max-width: 900px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 30%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
   }
 }
 @media (min-width: 650px) and (max-width: 767px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 35%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
   }
 }
 @media (min-width: 549px) and (max-width: 650px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 48%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
   }
 }
 @media (min-width: 481px) and (max-width: 549px) {
-footer{
-  margin-top: 60%;
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
   }
-}
-@media (max-width: 480px) {
-footer{
-  margin-top: 80%;
-}
-  .col h3{
-    font-size: 20px;
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
   }
-  .email-id{
-    width: fit-content;
-    margin: 2px 0;
-    font-size: 13px;
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
   }
-  .padlet{
-    font-size: 13px;
+  .input-box input {
+    padding: 5px 1px;
   }
   .logo{
-    width: 20px;
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
 }
+@media (min-width: 400px) and (max-width: 481px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 300px;
+    height: 500px;
+  }
+  .input-box input {
+  padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 12%;
+  }
 }
 @media (min-width: 320px) and (max-width: 400px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
   footer{
-    margin-top: 90%;
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
   }
-  .col h3{
-    font-size: 16px;
+  .fil {
+    width: 300px;
+    height: 500px;
   }
-  .col {
-    font-size: 14px;
-   }
-   .email-id{
-     width: fit-content;
-     margin: 2px 0;
-     font-size: 10px;
-   }
-   .padlet{
-     font-size: 12px;
-   }
-   .logo{
-     width: 18px;
-   }  
+  .container {
+    left: 0.4%;
+  }
+  .input-box input {
+    padding: 3px 0px;
+  }
+  .logo{
+    width: 70px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
 }
-
-
-*{
-  margin: 0;
-  padding: 0;
-  input{
-    cursor: pointer;
-    }
+@media (min-width: 240px) and (max-width: 320px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 185px;
+    height: 385px;
+  }
+  .container {
+    left: 1%;
+  }
+  .input-box input {
+    padding: 3px 0px ;
+  }
+  .logo{
+    width: 45px;
+  }
+  .nav-links ul li a{
+    font-size: 13px;
+  }
+  .input-box{
+    display: none;
+  }
 }
-.header{
-  min-height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
-  background-size: cover;
-  position: relative;
+@media (max-width: 240px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 150px;
+    height: 350px;
+  }
+  .container {
+    left: 1%;
+  }
+  .input-box input {
+    padding: 3px 0px ;
+  }
+  .logo{
+    width: 45px;
+  }
+  .nav-links ul li a{
+    font-size: 13px;
+  }
+  .input-box{
+    display: none;
+  }
+  .ogo{
+    width: 70px;
+  }
 }
 nav{
   display: flex;
@@ -113,7 +455,6 @@ nav img{
 .nav-links ul li a{
   color: #fff;
   text-decoration: none;
-  font-size: 19px;
 }
 .nav-links ul li::after{
     content: '';
@@ -126,16 +467,11 @@ nav img{
 .nav-links ul li:hover::after{
   width: 100%;
 }
-body {
-  background-color: #111;
-  width: auto;
-}
 
 .container{
   display: inline-block;
-  justify-content: center;
+  justify-content: left;
   top: 50%;
-  left: 17%;
   position: relative;
 }
 
@@ -185,6 +521,64 @@ body {
   outline: none;
 }
 /* Two image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: center;
+  width: 43%;
+  padding: 10px;
+}
+
+.pixo {
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+}
+
+
+.panel-heading { 
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  color:purple;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    font-size:14px;
+    float: right;
+    top:35px;
+    color: purple;
+    font-weight:normal;
+    position:absolute;
+}
+.panel-heading a.collapsed:after {
+  content:"\e080";
+}
+
+h4.panel-title {
+  font-size:25px;
+  font-family: 'Droid Serif', serif;
+  a {
+    color: purple;
+    text-decoration:none;
+  }
+}
+
+.panel  {
+  background-color:#080036;
+ }
+.panel-group {
+  .panel+.panel {
+      margin-top: 0px;
+  }
+  .panel-default{
+    border-top:transparent;    
+  }
+}
+.panel-body {
+  padding:25px;
+  background-color: #46456c;
+  }
   .row0{
     display: flex;
     width: 100%;
@@ -194,45 +588,32 @@ body {
 
 /* Footer CSS */
 *{
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
-footer{
-  background-color: #111;
-  padding: 20px 0;
-  width: 100%;
-  bottom: 0;
-  font-size: 9px;
-  line-height: 10px;
-}
 .row{
   display: flex;
   width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   justify-content: space-between;
   padding: 10px;
 }
 .col{
   flex-basis: 50%;
   padding: 10px;
-  font-size: 15px;
 }
 .logo{
-  width: 80px;
   margin-bottom: 0px;
   position: relative;
   float:left;
-
 }
 .col h3{
   width: fit-content;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .email-id{
   width: fit-content;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 .btn{
   display: inline-block;
@@ -255,7 +636,6 @@ footer{
 .input-box{
   position: relative;
   border-bottom: 1px solid #162938;
-  margin: 30px 0;
   color: white;
 }
 .input-box label {
@@ -270,7 +650,6 @@ footer{
   background: transparent;
   border-style: solid whitesmoke;
   outline: none;
-  padding: 5px 15px;
   font-size: 1em;
   font-weight: 600;
   color: white;
