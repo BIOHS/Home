@@ -205,6 +205,9 @@
   .text-box1{
     font-size: 12px;
   }
+    .text-box2{
+    font-size: 12px;
+  }
   .pos_cen{
     size-adjust: 9px 5px;
   }
@@ -310,6 +313,16 @@ body{
   box-shadow: 3px 3px 5px 5px rgb(88, 77, 128);
 }
 
+.text-box2{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  box-shadow: 3px 3px 5px 5px rgb(255, 240, 134);
+}
 .text-box p{
   margin: 20px 0 50px;
   font-size: 14px;
